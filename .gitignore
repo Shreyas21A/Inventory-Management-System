@@ -1,0 +1,24 @@
+   # Ignore database configuration file
+   admin/config.php
+
+   # Ignore uploaded images
+   admin/images/
+
+   # Ignore XAMPP-specific files
+   *.log
+   *.bak
+   *.tmp
+
+   # Ignore PHP cache or session files
+   *.cache
+   *.session
+
+   # Ignore IDE or editor files
+   .vscode/
+   .idea/
+   *.sublime-project
+   *.sublime-workspace
+
+   # Ignore OS-specific files
+   .DS_Store
+   Thumbs.db
