@@ -1,24 +1,27 @@
-   # Ignore database configuration file
-   admin/config.php
+     # Ignore database configuration file
+     admin/config.php
 
-   # Ignore uploaded images
-   admin/images/
+     # Ignore uploaded images
+     admin/images/
 
-   # Ignore XAMPP-specific files
-   *.log
-   *.bak
-   *.tmp
+     # Ignore custom CSS (if unused, assuming Tailwind CSS)
+     admin/style.css
 
-   # Ignore PHP cache or session files
-   *.cache
-   *.session
+     # Ignore XAMPP-specific files
+     *.log
+     *.bak
+     *.tmp
 
-   # Ignore IDE or editor files
-   .vscode/
-   .idea/
-   *.sublime-project
-   *.sublime-workspace
+     # Ignore PHP cache or session files
+     *.cache
+     *.session
 
-   # Ignore OS-specific files
-   .DS_Store
-   Thumbs.db
+     # Ignore IDE or editor files
+     .vscode/
+     .idea/
+     *.sublime-project
+     *.sublime-workspace
+
+     # Ignore OS-specific files
+     .DS_Store
+     Thumbs.db
